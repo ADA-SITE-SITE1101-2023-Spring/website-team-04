@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/hoc.css">
+    <title>Project</title>
+    <style>
+     
+      button {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4CAF50;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+</head>
+<body>
+  <header style="height: 100px;">
+    <div class="logo">
+      <a href="home.html" >
+        <img width="180px" src="static/images/logo.png" alt="">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="hoc.html">Hour of Code</a></li>
+        <li><a href="website.html">Website Project</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <div class="title">
+          <h1>Hour of Code</h1>
+          <p>Hello everyone! It has been 4 days since we held “The Hour of Code” event on behalf of the School of Information Technologies and Engineering of ADA University. We want to share our little success and sincerely thank the school №167 for providing us with the opportunity to implement our project.
+
+            On Wednesday, March 1, at 11:30 am our group held a 1-hour session in front of an audience of almost 40 people, the students of the 5th grade. Our aim was to popularize programming among the younger generation in Azerbaijan. We used some basic coding puzzles to demonstrate how “coding” is not that hard, as it seems to be. We provided students with information about programming in general and introduced a program in the SITE of ADA University. Our event showed that everyone is capable to become a programmer and has an opportunity to do so.
+            
+            In the end we want to express our gratitude once again to everyone, who was involved in “The Hour of Code”: audience for their participation, Ms. Sevinj Imranovna for her help during the event, school administration for collaboration and each member of our team for their work.</p>
+        </div>
+        <h2 onclick="toggleVisibility()"  title="click to see gallery" id="gallery-main" style="text-align: center; margin-top: 20px; cursor: pointer; font-size: 30px; color: #fff; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Gallery</h2>
+        <div id="gallery" class=" hidden">
+          <div class="images" id="images">
+            <div class="img">
+              <img src="static/images/332035446_220766930520166_4756079992229135671_n.jpg" alt="">
+              <img src="static/images/332054330_126205537057154_6099466547415607246_n.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="static/images/332068840_572332174955701_6812914691650920403_n.jpg" alt="">
+              <img src="static/images/332105523_1676111312844801_4927621112474574721_n.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="static/images/332113690_2187257398142233_103655482462330396_n.jpg" alt="">
+              <img src="static/images/332136878_2275271672652792_3571277890988075523_n.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="static/images/332226589_513307304291026_8111251230943584744_n.jpg" alt="">
+              <img src="static/images/332327108_216842397533627_2344826467121175496_n.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="static/images/332915406_209662711723954_3688717978655761264_n.jpg" alt="">
+              <img src="static/images/333712309_722782539591542_760184198832625964_n.jpg" alt="">
+            </div>
+            <div class="img">
+              <video src="static/images/333048885_670616141532563_4712080410281102414_n.mp4" controls></video>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+      <script src="static/js/hoc.js"></script>
+</body>
+</html>
